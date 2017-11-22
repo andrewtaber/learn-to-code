@@ -1,0 +1,36 @@
+html {
+	height: 100%;
+}
+
+body {
+	height: 100%;
+	text-align: center;
+}
+
+form {
+	box-sizing: border-box;
+	margin: 0 auto;
+	width: 50%;
+	height: 50%;
+
+}
+
+textarea {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.container {
+	height: 100%;
+	text-align: center;
+}
+
+.btn {
+	width: 48%;
+	margin: 10px 1% auto;
+}
+
+#clear {
+	float: right;
+}
