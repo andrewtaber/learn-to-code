@@ -55,12 +55,17 @@ table {
 
 
 /*
-======================================
+================================================
 Begin Custom Styling
-======================================
+================================================
 */
 
 
+/*
+======================
+Header
+======================
+*/
 * {
 	box-sizing: border-box;
 }
@@ -116,7 +121,7 @@ header .logo a{
 }
 
 .container {
-	max-width: 1200px;
+	max-width: 1140px;
 	height: 100%;
 	padding: 0;
 	margin: 0 auto;
@@ -151,9 +156,9 @@ header .logo a{
 	justify-content: center;
 	align-items: center;
 	text-align: center;
-	font-size: 15px;
+	font-size: 16px;
 	border: 2px solid white;
-	width: 160px;
+	width: 155px;
 	height: 60px;
 	border-radius: 5px;
 	margin: 2px;
@@ -173,4 +178,68 @@ header .logo a{
 .header-btn-orange:hover {
 	background-color: #f96c2f;
 	color: white;
+}
+
+/*
+=======================
+footer
+=======================
+*/
+
+footer {
+	height: 500px;
+}
+
+.footer-links {
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer-links a {
+	color: black;
+	text-transform: none;
+	text-align: left;
+}
+
+.footer-links ul {
+	margin: 100px 15px;
+	width: 16.666666667%;
+	display: inline-flex;
+	flex-direction: column;
+}
+
+.footer-links li {
+	margin: 8px 0;
+}
+
+.footer-last {
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer-credits {
+	color: rgba(0, 0, 0, .6);
+	font-size: 14px;
+	margin: 0 15px;
+}
+
+.footer-credits a {
+	color: #F85A16;
+	text-transform: none;
+}
+
+.footer-credits p {
+	margin-bottom: 10px;
+}
+
+.footer-social ul {
+	display: inline-flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.footer-social a {
+	margin: 0 15px;
+	color: #F85A16;
+	font-size: 20px;
 }
