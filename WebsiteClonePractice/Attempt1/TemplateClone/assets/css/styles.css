@@ -179,6 +179,72 @@ header .logo a{
 	background-color: #f96c2f;
 	color: white;
 }
+/*
+=======================
+Features
+=======================
+*/
+
+.features {
+	min-height: 500px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.feature {
+	width: 30%;
+	margin: 30px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.feature p {
+	color: rgba(0, 0, 0, .55);
+	line-height: 1.8em;
+	text-align: center;
+	font-size: 16px;
+}
+
+.feature h3 {
+	margin: 2em 0;
+	color: rgba(0, 0, 0, .65);
+	text-transform: uppercase;
+	font-size: 19px;
+}
+
+.feature-icon {
+	width: 100px;
+	height: 100px;
+	border-radius: 100%;
+	background: rgba(0, 0, 0, .1);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 40px;
+	color: #F85A16;
+}
+
+.learn-btn {
+	margin: 30px 0;
+	padding: 10px;
+	text-transform: capitalize;
+	text-align: center;
+	border: 2px solid #F85A16;
+	border-radius: 3px;
+	height: 40px;
+	width: 150px;
+	color: #F85A16;
+}
+
+.learn-btn:hover {
+	background: #F85A16;
+	color: #FFF;
+}
+
+
 
 /*
 =======================
