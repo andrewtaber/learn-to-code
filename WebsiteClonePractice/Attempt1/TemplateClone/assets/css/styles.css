@@ -360,6 +360,80 @@ Stats
 
 /*
 =======================
+Testimonial
+=======================
+*/
+
+.testimonial {
+	height: 700px;
+	background: rgba(0, 0, 0, .1);
+}
+
+.container-testimonial {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.container-testimonial h2 {
+	font-size: 36px;
+	font-weight: 700;
+	margin-bottom: 25px 0;
+}
+
+.testimonial-quote {
+	margin: 10px 0;
+	width: 50%;
+	font-size: 17px;
+	line-height: 1.8em;
+	color: rgba(0, 0, 0, .6);
+}
+
+.testimonial-profile {
+	margin: 25px 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: rgba(0, 10, 10, .5);
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 13px;
+	letter-spacing: 1px;
+}
+
+.testimonial-profile a {
+	color: #F85A16;
+}
+
+.testimonial-photo {
+	margin: 20px 0;
+	width: 90px;
+	height: 90px;
+	border-radius: 100%;
+	background: rgba(0, 10, 50, .33);
+}
+
+.testimonial-toggle a {
+	margin: 0 5px;
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	border-radius: 100%;
+	background: rgba(0, 0, 0, .1);
+}
+
+.testimonial-toggle a:hover {
+	background: rgba(0, 0, 0, .3);
+}
+
+.testimonial-toggle a:nth-child(1) {
+	background: none;
+	border: 2px solid #F85A16;
+}
+
+/*
+=======================
 footer
 =======================
 */
