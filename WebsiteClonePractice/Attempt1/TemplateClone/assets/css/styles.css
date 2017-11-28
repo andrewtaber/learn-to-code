@@ -216,8 +216,8 @@ Features
 }
 
 .feature-icon {
-	width: 100px;
-	height: 100px;
+	width: 90px;
+	height: 90px;
 	border-radius: 100%;
 	background: rgba(0, 0, 0, .1);
 	display: flex;
@@ -244,7 +244,71 @@ Features
 	color: #FFF;
 }
 
+/*
+=======================
+videos
+=======================
+*/
 
+.videos {
+	width: 100%;
+	height: 700px;
+	text-align: center;
+	background: rgba(0, 0, 0, .1);
+	display: flex;
+	justify-content: space-around;
+
+}
+
+.videos h2 {
+	padding: 25px 0;
+	color: black;
+	font-size: 38px;
+	font-weight: 700;
+}
+
+.videos p {
+	margin: 0 auto;
+	width: 65%;
+	font-size: 18px;
+	color: rgba(0, 0, 0, .55);
+}
+
+.videos-header {
+	margin: 100px;
+}
+
+.videos-container {
+	display: flex;
+	justify-content: space-around;
+}
+
+.videos-links {
+	width: 31%;
+	height: 225px;
+	background: linear-gradient(135deg, #625C5C 0%, #574944 100%);
+	border-radius: 6px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.video {
+	background: white;
+	width: 90px;
+	height: 90px;
+	border-radius: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 1px 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.video a {
+	color: #F85A16;
+	font-size: 40px;
+
+}
 
 /*
 =======================
