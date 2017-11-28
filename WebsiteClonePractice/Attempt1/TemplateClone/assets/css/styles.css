@@ -307,7 +307,55 @@ videos
 .video a {
 	color: #F85A16;
 	font-size: 40px;
+}
 
+/*
+=======================
+Stats
+=======================
+*/
+
+.stats {
+	width: 100%;
+	height: 500px;
+	background: linear-gradient(45deg, #5E504E 0%, #392C2E 40%, #392C2E 60%, #5E504E 100%);
+}
+
+.stat-containers {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.stat-container {
+	margin: 0;
+	width: 22%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	align-items: center;
+}
+
+.stat-container p {
+	display: inline-block;
+	margin: 25px 0;
+}
+
+.stat-symbol {
+	font-size: 40px;
+	color: #F85A16;
+}
+
+.stat-number {
+	color: white;
+	font-size: 44px;
+}
+
+.stat-desc {
+	text-transform: uppercase;
+	font-size: 18px;
+	color: #9E9898;
 }
 
 /*
