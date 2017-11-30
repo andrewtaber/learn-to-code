@@ -434,6 +434,121 @@ Testimonial
 
 /*
 =======================
+offerings
+=======================
+*/
+
+.offerings {
+	height: 900px;
+}
+
+.offerings-header {
+	margin: 100px 0;
+	text-align: center;
+}
+
+.offerings-header h2 {
+	margin-bottom: 25px;
+	font-size: 38px;
+	font-weight: 700;
+}
+
+.offerings-header p {
+	font-size: 18px;
+	margin: 0 auto;
+	width: 70%;
+	color: rgba(0, 0, 0, .6);
+}
+
+nav.offerings-nav {
+	margin-bottom: 75px;
+}
+
+.offerings-nav ul {
+	width: 100%;
+	height: 75px;
+	background: rgba(0, 0, 0, 0.08);
+	border-radius: 5px;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	padding: 3px;
+}
+
+.offerings-nav a {
+	border-radius: 4px;
+	padding: 27px 0;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	text-transform: capitalize;
+	color: rgba(0, 0, 0, 0.3);
+}
+
+.offerings-nav li {
+	margin: auto;
+	width: 100%;
+	text-align: center;
+	text-transform: capitalize;
+}
+
+.offerings-nav a:hover {
+	color: rgba(0, 0, 0, 0.6);
+}
+
+a.offerings-nav-active {
+	background: white;
+	color: #F85A16;
+}
+
+a.offerings-nav-active:hover {
+	color: #F85A16;
+}
+
+.offerings-content .videos-links {
+	margin: 15px;
+	width: 50%;
+	height: 400px;
+}
+
+.offerings-article {
+	margin: 15px;
+	width: 50%;
+}
+
+.offerings-article h3 {
+	font-size: 32px;
+	margin-bottom: 15px;
+}
+
+.offerings-article p {
+	color: rgba(0, 0, 0, 0.5);
+	line-height: 1.6em;
+	margin: 20px 0;
+}
+
+.offerings-article h4 {
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+.off-sub-art {
+	display: flex;
+}
+
+.offerings-content {
+	display: flex;
+	justify-content: flex-start;
+}
+
+
+
+
+
+/*
+=======================
 footer
 =======================
 */
