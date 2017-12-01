@@ -543,9 +543,92 @@ a.offerings-nav-active:hover {
 	justify-content: flex-start;
 }
 
+/*
+=======================
+subscribe
+=======================
+*/
 
+.subscribe-section {
+	height: 500px;
+	background: #333333;
+}
 
+.subscribe-container {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	align-self: center;
+}
 
+.subscribe-container h2 {
+	color: white;
+	font-size: 34px;
+	font-weight: 700;
+	margin: 10px;
+}
+
+.subscribe-container p {
+	color: rgba(255, 255, 255, 0.3);
+	font-size: 18px;
+	margin-bottom: 30px;
+}
+
+.subscribe-container form {
+	margin: 10px;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.subscribe-container input, button {
+	box-shadow: none;
+	outline: none;
+	color: white;
+	border: 2px solid transparent;
+	border-radius: 6px;
+	width: 30%;
+	height: 50px;
+	background: #555;
+	font-weight: 300;
+	font-family: 'Raleway', sans-serif;
+	font-size: 16px;
+}
+
+.subscribe-container input {
+	padding: 10px 20px;
+}
+
+.subscribe-container button {
+	background: #F85A16;
+	text-transform: uppercase;
+}
+
+.subscribe-container input:focus {
+	background: transparent;
+	border: 2px solid rgba(255, 255, 255, .8);
+	outline: none;
+	transition-timing-function: ease;
+	transition-property: all;
+	transition-duration: .5s;
+	font-family: 'Raleway', sans-serif;
+}
+
+.subscribe-container input:-moz-placeholder {
+	font-weight: 300;
+	color: #eee;
+}
+.subscribe-container input::-moz-placeholder {
+	font-weight: 300;
+	color: #eee;
+}
+.subscribe-container input::-webkit-input-placeholder {
+	font-weight: 300;
+	color: #eee;
+}
 
 /*
 =======================
